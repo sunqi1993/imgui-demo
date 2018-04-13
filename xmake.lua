@@ -28,7 +28,8 @@ target("hello")
     -- 添加链接的lib名称
     -- add_links("glfw3","GL","Xrandr","X11","Xi","Xxf86vm","pthread","dl","Xinerama","m","rt","Xcursor")
 
-    add_headers("src/imgui/*.h")
+    -- add_headers("src/imgui/*.h")
+    set_headerdir("src/imgui")
     -- add files
     add_files("src/main.cpp") 
 
