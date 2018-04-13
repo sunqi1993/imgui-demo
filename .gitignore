@@ -1,2 +1,2 @@
-./build/*.h
-./build/.objs/*
+/build/*.h
+/build/.objs/*
