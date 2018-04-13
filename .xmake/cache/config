@@ -1,0 +1,30 @@
+
+{
+    ["options_all"] = 
+    {
+        ["plat"] = "linux"
+    ,   ["arch"] = "x86_64"
+    ,   ["mode"] = "debug"
+    }
+
+,   ["options_hello"] = 
+    {
+        ["plat"] = "linux"
+    ,   ["arch"] = "x86_64"
+    ,   ["mode"] = "debug"
+    }
+
+,   ["options_imgui"] = 
+    {
+        ["plat"] = "linux"
+    ,   ["arch"] = "x86_64"
+    ,   ["mode"] = "debug"
+    }
+
+,   ["mtimes"] = 
+    {
+        ["xmake.lua"] = 1523583235
+    }
+
+,   ["__version"] = "2.1.9"
+}
