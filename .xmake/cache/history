@@ -3,13 +3,7 @@
     ["__version"] = "2.1.9"
 ,   ["cmdlines"] = 
     {
-        "xmake r"
-    ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
-    ,   "xmake -w"
-    ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
-    ,   "xmake -w"
-    ,   "xmake r"
-    ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
+        "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
     ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
     ,   "xmake -w"
     ,   "xmake r"
@@ -67,6 +61,12 @@
     ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
     ,   "xmake r"
     ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
+    ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
+    ,   "xmake f -p linux -a x86_64 -m debug"
+    ,   "xmake -w"
+    ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
+    ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
+    ,   "xmake -w"
     ,   "xmake l -c \"import(\"core.project.config\"); config.load(); print(\"{\\\"plat\\\":\\\"$(plat)\\\", \\\"arch\\\":\\\"$(arch)\\\", \\\"mode\\\":\\\"$(mode)\\\"}\")\""
     }
 

@@ -9,7 +9,7 @@
 // This example is using gl3w to access OpenGL functions (because it is small). You may use glew/glad/glLoadGen/etc. whatever already works for you.
 #include "GLES3/gl3.h"
 #include <GLFW/glfw3.h>
-// #include "GL/gl.h"
+#include "GL/gl.h"
 
 static void glfw_error_callback(int error, const char* description)
 {
