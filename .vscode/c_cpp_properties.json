@@ -2,17 +2,8 @@
     "configurations": [
         {
             "name": "Linux",
-            
             "includePath": [
-                "${workspaceFolder}",
-                "${workspaceFolder}/src/imgui",
-                "/usr/include/c++/6",
-                "/usr/include/x86_64-linux-gnu/c++/6",
-                "/usr/include/c++/6/backward",
-                "/usr/local/include",
-                "/usr/lib/llvm-3.8/lib/clang/3.8.1/include",
-                "/usr/include/x86_64-linux-gnu",
-                "/usr/include"
+                "${workspaceFolder}/src/imgui"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",

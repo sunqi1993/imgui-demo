@@ -234,7 +234,7 @@ void ImGui::ShowDemoWindow(bool* p_open)
     }
 
     ImGui::Spacing();
-    if (ImGui::CollapsingHeader("Help"))
+    if (ImGui::CollapsingHeader("Help"))  //折叠标题
     {
         ImGui::TextWrapped("This window is being created by the ShowDemoWindow() function. Please refer to the code in imgui_demo.cpp for reference.\n\n");
         ImGui::Text("USER GUIDE:");

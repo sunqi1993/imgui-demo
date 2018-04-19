@@ -4,27 +4,34 @@
     {
         ["plat"] = "linux"
     ,   ["arch"] = "x86_64"
-    ,   ["mode"] = "debug"
+    ,   ["mode"] = "release"
     }
 
 ,   ["options_hello"] = 
     {
         ["plat"] = "linux"
     ,   ["arch"] = "x86_64"
-    ,   ["mode"] = "debug"
+    ,   ["mode"] = "release"
     }
 
 ,   ["options_imgui"] = 
     {
         ["plat"] = "linux"
     ,   ["arch"] = "x86_64"
-    ,   ["mode"] = "debug"
+    ,   ["mode"] = "release"
     }
 
 ,   ["mtimes"] = 
     {
-        ["xmake.lua"] = 1523596985
+        ["xmake.lua"] = 1523836138
     }
 
 ,   ["__version"] = "2.1.9"
+,   ["options_demo"] = 
+    {
+        ["plat"] = "linux"
+    ,   ["arch"] = "x86_64"
+    ,   ["mode"] = "debug"
+    }
+
 }

@@ -2,24 +2,26 @@
 {
     ["find_program"] = 
     {
-        ["g++"] = "g++"
+        ["ccache"] = "ccache"
+    ,   ["g++"] = "g++"
+    ,   ["git"] = "git"
+    ,   ["curl"] = false
     ,   ["gcc"] = "gcc"
-    ,   ["ccache"] = "ccache"
     }
 
 ,   ["lib.detect.has_flags"] = 
     {
-        ["gcc_6.4.0-2)_cxx_-O0_x86_64"] = true
-    ,   ["g++_6.4.0-2)_sh_-Qunused-arguments_x86_64"] = false
-    ,   ["g++_6.4.0-2)_ld_-Wl,-rpath=@loader_path_x86_64"] = true
+        ["gcc_6.4.0-2)_cxx_-fPIC_x86_64"] = true
     ,   ["g++_6.4.0-2)_ld_-Qunused-arguments_x86_64"] = false
+    ,   ["g++_6.4.0-2)_ld_-Wl,-rpath=@loader_path_x86_64"] = true
+    ,   ["g++_6.4.0-2)_sh_-Qunused-arguments_x86_64"] = false
     ,   ["gcc_6.4.0-2)_cxx_-Qunused-arguments_x86_64"] = false
     }
 
 ,   ["find_programver"] = 
     {
-        ["g++"] = "6.4.0-2)"
-    ,   ["gcc"] = "6.4.0-2)"
+        ["gcc"] = "6.4.0-2)"
+    ,   ["g++"] = "6.4.0-2)"
     }
 
 ,   ["__version"] = "2.1.9"
@@ -28,32 +30,32 @@
         ["gcc_6.4.0-2)"] = 
         {
             ["--help"] = true
-        ,   ["-pie"] = true
-        ,   ["-c"] = true
-        ,   ["-shared"] = true
         ,   ["-v"] = true
+        ,   ["-Xlinker"] = true
+        ,   ["-pie"] = true
+        ,   ["-shared"] = true
         ,   ["-o"] = true
         ,   ["-Xassembler"] = true
-        ,   ["-Xlinker"] = true
-        ,   ["-E"] = true
+        ,   ["-c"] = true
+        ,   ["-S"] = true
         ,   ["-save-temps"] = true
         ,   ["-print-multiarch"] = true
-        ,   ["-pass-exit-codes"] = true
+        ,   ["-E"] = true
         ,   ["-pipe"] = true
         ,   ["-print-sysroot"] = true
         ,   ["--target-help"] = true
         ,   ["-dumpversion"] = true
         ,   ["-print-multi-lib"] = true
         ,   ["--param"] = true
-        ,   ["-S"] = true
+        ,   ["-print-multi-directory"] = true
         ,   ["-time"] = true
         ,   ["-print-search-dirs"] = true
-        ,   ["-Xpreprocessor"] = true
+        ,   ["-B"] = true
         ,   ["--version"] = true
         ,   ["-dumpspecs"] = true
         ,   ["-x"] = true
-        ,   ["-B"] = true
-        ,   ["-print-multi-directory"] = true
+        ,   ["-Xpreprocessor"] = true
+        ,   ["-pass-exit-codes"] = true
         ,   ["-no-canonical-prefixes"] = true
         ,   ["-print-libgcc-file-name"] = true
         ,   ["-print-multi-os-directory"] = true
