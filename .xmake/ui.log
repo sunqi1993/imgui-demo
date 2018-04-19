@@ -1,3 +1,0 @@
-[50%]: linking.release libimgui.so
-[50%]: ccache compiling.release src/main.cpp
-[100%]: linking.release hello
