@@ -1,2 +1,7 @@
-build/
+build/*.h
+build/*.d
 build/.objs/
+
+.xmake/
+!.xmake/xmake.conf
+
